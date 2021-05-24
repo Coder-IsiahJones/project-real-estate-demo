@@ -101,7 +101,7 @@ const Navbar = ({ toggle }) => {
 
   return (
     <Nav style={style}>
-      <Logo to='/'>Realtor Co</Logo>
+      <Logo to='/'>REALTOR CO</Logo>
       <MenuBars onClick={toggle} />
       <NavMenu>
         {menuData.map((item, index) => (
